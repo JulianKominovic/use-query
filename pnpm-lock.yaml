@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@jkominovic/use-query': ^0.0.1
+  '@jkominovic/use-query': ^0.0.2
   '@lopatnov/rollup-plugin-uglify': ^2.1.5
   '@types/react': ^18.0.17
   '@types/react-dom': ^18.0.6
@@ -18,7 +18,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
-  '@jkominovic/use-query': 0.0.1
+  '@jkominovic/use-query': 0.0.2
   '@lopatnov/rollup-plugin-uglify': 2.1.5
   '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
@@ -315,8 +315,8 @@ packages:
     dev: true
     optional: true
 
-  /@jkominovic/use-query/0.0.1:
-    resolution: {integrity: sha512-YI9iLiT31NOBuHHUJCpwrpYVGeyVVbARh4/DPqsZEv0foAdgLssOxZulay9hvLgA+VVNKDvkjC0JLZZilY09dw==}
+  /@jkominovic/use-query/0.0.2:
+    resolution: {integrity: sha512-mbu9PvHWTxmj6xyfvfDGPQVAGi6JdApbzw27xq4JHuywvAF6hmD1VRanQM0qZJWviORdM/T5QrlX9bDIZEj42w==}
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0

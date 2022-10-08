@@ -1,10 +1,12 @@
 {
   "name": "@jkominovic/use-query",
-  "version": "0.0.2",
+  "description": "Another custom hook fetch wrapper for React.",
+  "version": "0.0.3",
   "type": "module",
   "files": [
     "dist"
   ],
+  "readme": "./README.md",
   "types": "./dist/useQuery.d.ts",
   "main": "./dist/useQuery.umd.cjs",
   "module": "./dist/useQuery.js",
@@ -24,7 +26,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@jkominovic/use-query": "^0.0.1",
+    "@jkominovic/use-query": "^0.0.2",
     "@lopatnov/rollup-plugin-uglify": "^2.1.5",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
