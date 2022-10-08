@@ -1,10 +1,11 @@
 {
   "name": "@jkominovic/use-query",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "files": [
     "dist"
   ],
+  "types": "./dist/useQuery.d.ts",
   "main": "./dist/useQuery.umd.cjs",
   "module": "./dist/useQuery.js",
   "exports": {
@@ -23,7 +24,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@jkominovic/use-query": "^0.0.0",
+    "@jkominovic/use-query": "^0.0.1",
     "@lopatnov/rollup-plugin-uglify": "^2.1.5",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",

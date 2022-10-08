@@ -5,10 +5,16 @@ import uglify from "@lopatnov/rollup-plugin-uglify";
 import dts from "vite-plugin-dts";
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), dts()],
+  plugins: [
+    react(),
+    dts({
+      insertTypesEntry: true,
+    }),
+  ],
 
   build: {
     sourcemap: false,
+    assetsDir: "./fake",
     lib: {
       entry: "./src/useQuery.ts",
       fileName: "useQuery",
