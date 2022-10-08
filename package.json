@@ -1,7 +1,7 @@
 {
   "name": "@jkominovic/use-query",
   "description": "Another custom hook fetch wrapper for React.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "files": [
     "dist"

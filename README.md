@@ -2,17 +2,19 @@
 
 Another lightweight custom hook fetch wrapper for React.
 
-![Package size](https://badgen.net/packagephobia/publish/@jkominovic/use-query)
+![Package size](https://badgen.net/bundlephobia/minzip/@jkominovic/use-query)
+![Dependencies](https://badgen.net/bundlephobia/dependency-count/@jkominovic/use-query)
+![Treeshakable](https://badgen.net/bundlephobia/tree-shaking/@jkominovic/use-query)
 
 ## Features
 
-💡 Auto caching (5 minutes by default).
-🕑 Auto-retry (only 3 instances).
-🎯 Some (just a little bit) of type safety (at least I tried).
-⛔ Abortable request.
-👀 Automatic re-fetching when URL changes.
-👌 Refetch function to programmatically refetch the last request.
-⚡ Faster first fetch (because we don't use useEffect, fetch fires before first render starts).
+- 💡 Auto caching (5 minutes by default).
+- 🕑 Auto-retry (only 3 instances).
+- 🎯 Some (just a little bit) of type safety (at least I tried).
+- ⛔ Abortable request.
+- 👀 Automatic re-fetching when URL changes.
+- 👌 Refetch function to programmatically refetch the last request.
+- ⚡ Faster first fetch (because we don't use useEffect, fetch fires before first render starts).
 
 ## Usage
 

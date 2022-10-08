@@ -1,7 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-import useQuery from "./useQuery";
+import useQuery from "@jkominovic/use-query";
 
 export interface Root {
   dos: Dos;
