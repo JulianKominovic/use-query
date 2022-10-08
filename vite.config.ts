@@ -2,9 +2,10 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { terser } from "rollup-plugin-terser";
 import uglify from "@lopatnov/rollup-plugin-uglify";
+import dts from "vite-plugin-dts";
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), dts()],
 
   build: {
     sourcemap: false,
@@ -14,6 +15,7 @@ export default defineConfig({
       name: "useQuery",
       formats: ["es", "cjs", "iife", "umd"],
     },
+
     commonjsOptions: {
       sourceMap: false,
     },
