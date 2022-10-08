@@ -1,16 +1,18 @@
 # useQuery
 
-Another custom hook fetch wrapper for React.
+Another lightweight custom hook fetch wrapper for React.
+
+![Package size](https://badgen.net/packagephobia/publish/@jkominovic/use-query)
 
 ## Features
 
-- [x] 💡 Auto caching (5 minutes by default).
-- [x] 🕑 Auto-retry (only 3 instances).
-- [x] 🎯 Some (just a little bit) of type safety (at least I tried).
-- [x] ⛔ Abortable request.
-- [x] 👀 Automatic re-fetching when URL changes.
-- [x] 👌 Refetch funcion to programatically refetch the last request.
-- [x] ⚡ Faster first fetch (because we don't use useEffect, fetch fires before first render starts).
+💡 Auto caching (5 minutes by default).
+🕑 Auto-retry (only 3 instances).
+🎯 Some (just a little bit) of type safety (at least I tried).
+⛔ Abortable request.
+👀 Automatic re-fetching when URL changes.
+👌 Refetch function to programmatically refetch the last request.
+⚡ Faster first fetch (because we don't use useEffect, fetch fires before first render starts).
 
 ## Usage
 
@@ -171,7 +173,7 @@ export default Example;
 
 ### Catch the errors!
 
-In case yout request drops in error state useQuery will return it.
+In case your request drops in error state useQuery will return it.
 
 ```diff
 import useQuery from "@jkominovic/use-query";
@@ -254,6 +256,7 @@ export default Example;
 ```
 
 ### Dynamic URL automatic refetching
+
 ```diff
 import useQuery from "@jkominovic/use-query";
 
@@ -340,15 +343,15 @@ const Example = () => {
 };
 
 export default Example;
-
 ```
 
-
-### Alterating the natural flow 
+### Altering the natural flow
 
 There are two function you must know:
+
 - `refetch()`
-    >  Executing this function allows you to refetch the current URL stored in useQuery.
+
+  > Executing this function allows you to refetch the current URL stored in useQuery.
 
 - `abort()`
-    >  Executing this function allows you to cancel only the request useQuery is actually waiting or processing.
+  > Executing this function allows you to cancel only the request useQuery is actually waiting or processing.

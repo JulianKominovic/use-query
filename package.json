@@ -1,7 +1,7 @@
 {
   "name": "@jkominovic/use-query",
   "description": "Another custom hook fetch wrapper for React.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "files": [
     "dist"
@@ -21,11 +21,13 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+  "peer-dependencies": {
+    "react": ">=16",
+    "react-dom": ">=16"
   },
   "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "@jkominovic/use-query": "^0.0.2",
     "@lopatnov/rollup-plugin-uglify": "^2.1.5",
     "@types/react": "^18.0.17",
